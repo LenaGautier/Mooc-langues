@@ -1,0 +1,4 @@
+services:
+#    mooc_langues_formation.example:
+#        class: MoocLangues\FormationBundle\Example
+#        arguments: ["@service_id", "plain_value", "%parameter%"]

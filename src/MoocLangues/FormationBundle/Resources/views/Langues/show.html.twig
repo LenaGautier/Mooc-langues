@@ -1,0 +1,12 @@
+<h2>Plus de détails:</h2>
+
+
+<p>{{ langue.name }}</p>
+
+<ul>
+    {% for categories in langue.categories %}
+    <li>
+        <a href="{{ path('showCategorie', {'id': categories.id}) }}">{{ categories.name }}</a>
+    </li>
+    {% endfor %}
+</ul>

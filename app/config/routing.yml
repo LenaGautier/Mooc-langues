@@ -1,0 +1,8 @@
+mooc_langues_formation:
+    resource: "@MoocLanguesFormationBundle/Controller/"
+    type:     annotation
+    prefix:   /
+
+app:
+    resource: "@AppBundle/Controller/"
+    type:     annotation

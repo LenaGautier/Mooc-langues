@@ -1,0 +1,10 @@
+
+<h1>Choisis ta langue mont petit</h1>
+
+<ul class="langue">
+    {% for langue in langues %}
+        <li>
+            <h2><a href="{{ path('showLangue', {'id': langue.id}) }}">{{ langue.name }}</a></h2>
+        </li>
+    {% endfor %}
+</ul>
